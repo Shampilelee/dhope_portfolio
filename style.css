@@ -1,0 +1,331 @@
+
+/* 
+    index.html 
+*/
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #161515;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #363535;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#dhope_System_Title {
+    margin-top: 3px;
+    font-size: 3vw;
+}
+
+.dhope_Buttons button {
+    width: 20vw;
+    font-size: 2vw;
+    background-color: rgb(43, 94, 170);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    min-width: 15vw;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    transition: background-color 0.7s ease;
+    
+    &:hover {
+        background-color: rgb(16, 70, 150);
+    }
+    &:active {
+        background-color: rgb(8, 42, 94);
+    }    
+}
+
+
+
+/* 
+    grading systems 
+*/
+#collect_Data {
+    margin-bottom: 20px;
+}
+
+#collect_Data input {
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 2.0vw;
+    text-align: center;
+    width: 30vw;
+    transition: background-color 0.5s ease;
+}
+
+form #reset_Btn {
+    width: 15vw;
+    font-size: 2vw;
+    background-color: #dae725;
+
+    &:hover {
+        background-color: #ecf83c;
+    }
+    &:active {
+        background-color: #cfdd11;
+    }
+}
+
+form #submit_Btn {
+    width: 15vw;
+    font-size: 2vw;
+    background-color: #2ba8da;
+    color: white;
+
+    &:hover {
+        background-color: #37bef3;;
+    }
+    &:active {
+        background-color: #1e7496;
+    }
+}
+
+
+
+/*
+    calculator.html
+*/
+#calculation #display {
+    width: 30vw;
+    font-size: 5vw;
+    text-align: right;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #1a1919;
+    color: white;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+#keys button {
+    height: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #2c2b2b;
+    color: white;
+
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: #424242;
+    }
+
+    &:active {
+        background-color: #202020;
+    }
+
+}
+
+#keys #equare {
+    background-color: #2599e7;
+    color: white;
+    grid-column: span 2;
+
+    &:hover {
+        background-color: #48a6e6;
+    }
+
+    &:active {
+        background-color: #096fb3;
+    }
+}
+
+#keys #clear {
+    background-color: #e72525;
+    color: white;
+    grid-column: span 2;
+
+    &:hover {
+        background-color: #ff1515;
+    }
+
+    &:active {
+        background-color: #b30000;
+    }
+}
+
+#keys .operator {
+    background-color: #dae725;
+    color: black;
+
+    &:hover {
+        background-color: #f1ff34;
+    }
+
+    &:active {
+        background-color: #cad80b;
+    }
+}
+
+
+
+/* 
+    GET CURRENT DATE AND TIME 
+*/ 
+#date_time {
+    text-align: center;
+    padding: 20px;
+    color: yellowgreen;
+    border: 5px solid ;
+    border-radius: 5px;
+}
+
+#date_time button{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(4, 158, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        font-size: 2vw;
+        font-weight: bold;
+        padding: 11px;
+        background-color: rgb(3, 202, 93);
+    }
+
+    &:active {
+        font-weight: bold;
+        padding: 10px;
+        background-color: rgb(0, 117, 53);
+    }
+}
+
+
+
+/*
+    WEATHER APP
+*/
+.weather_Form {
+    margin: 20px;
+}
+
+.city_Input {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #1e8df5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3396f1;
+    }
+
+    &:active {
+        background-color: #0a85f8;
+    }
+}
+
+.data_Card {
+    background: linear-gradient(180deg, rgb(87, 157, 238), rgb(204, 149, 47));
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    min-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 25;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0px;
+}
+
+.city_Display, .temp_Display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.801);
+    margin-bottom: 25px;
+}
+
+.humidity_Display {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.Desc_Display {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.Weather_Emoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.error_Display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
