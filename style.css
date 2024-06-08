@@ -311,6 +311,113 @@ p {
 
 
 
+@media (max-width: 650px) {
+
+    /* home page */
+    .dhope_Buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #dhope_System_Title {
+        font-size: 7vw;
+    }
+    
+    .dhope_Buttons button {
+        width: 45vw;
+        height: 17vw;
+        font-size: 4vw;
+    }
+
+
+
+    /* grading system */
+    #collect_Data input {
+        padding: 2px;
+        margin: 4px;
+        font-size: 4vw;
+        width: 50vw;
+        height: 10vw;
+    }
+
+    form #reset_Btn {
+        width: 23vw;
+        font-size: 4vw;
+    }
+    
+    form #submit_Btn {
+        width: 23vw;
+        font-size: 4vw;
+    }
+
+
+
+    /* calculator.html */
+    #calculation #display {
+        width: 81vw;
+        height: 15vw;
+        font-size: 10vw;
+    }
+
+    #keys {
+        gap: 2px;
+    }
+
+    #keys button {
+        height: 15vw;
+        width: 20vw;
+        font-size: 5vw;
+    }
+
+    #keys #equare {
+        width: 41vw;
+    }
+
+    #keys #clear {
+        width: 41vw;
+    }
+
+
+
+    /*
+    WEATHER APP
+    */
+    .container {
+        width: 90%;
+    }
+    .weather_Form {
+        margin: 20px;
+    }
+
+    .city_Input {
+        padding: 7px;
+        text-align: center;
+    }
+
+    .data_Card {
+        padding: 5px;
+        min-width: 100px;
+    }
+
+    .city_Display, .temp_Display {
+        font-size: 2rem;
+    }
+
+    .humidity_Display {
+        margin-bottom: 2vw;
+    }
+
+    .Desc_Display {
+        font-size: 1.2rem;
+    }
+
+    .error_Display {
+        font-size: 0.7rem;
+    }
+    
+}
+
+
 
 
 
