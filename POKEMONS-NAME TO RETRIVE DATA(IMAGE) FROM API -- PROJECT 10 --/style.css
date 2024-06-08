@@ -1,0 +1,26 @@
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+
+/* FADE-IN ANINATION */
+@keyframes fade_In {
+    from {opacity: 0.5}
+    to {opacity: 1.0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
