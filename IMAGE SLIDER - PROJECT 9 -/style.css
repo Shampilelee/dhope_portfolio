@@ -1,0 +1,65 @@
+
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+}
+
+/* KEEP IT CLOSE LIKE THIS: (img.display_Slide) FOR IT TO WORK */
+img.display_Slide {
+    display: block;
+
+    animation-name: fade_In;
+    animation-duration: 0.7s;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.548) ;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+   left: 0;; 
+}
+
+.next {
+    right: 0;
+}
+
+/* FADE-IN ANINATION */
+@keyframes fade_In {
+    from {opacity: 0.5}
+    to {opacity: 1.0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
