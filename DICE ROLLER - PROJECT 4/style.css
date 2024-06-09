@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+    background-color: aliceblue;
+    
+    /* CENTER EVERYTHING */
+    position: absolute;
+    top: 19%;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+#container {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+input {
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: #318bdf;
+}
+
+button {
+    margin-top: 17px;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 7px;
+
+    color: white;
+    background-color: rgb(127, 187, 255);
+    border: none;
+    cursor: pointer;
+
+    /* this is the time IT TAKES to fade in*/
+    transition: background-color 0.7s;
+
+    &:hover {
+        background-color: rgb(66, 145, 236);
+    }
+    &:active {
+        background-color: rgb(2, 33, 68);
+    }
+}
+
+#dice_Result {
+    margin: 25px;
+}
+
+#dice_Images img {
+    width: 150px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
