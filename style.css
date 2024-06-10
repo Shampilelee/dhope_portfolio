@@ -34,6 +34,7 @@ body {
     border: none;
     border-radius: 7px;
     min-width: 15vw;
+    min-height: 7vw;
     padding: 10px 10px;
     margin-bottom: 10px;
 
