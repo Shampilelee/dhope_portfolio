@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  background: #161515;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  text-align: center;
+  border-radius: 5em;
+}
+.container #other_Projects_Title {
+  margin-top: 3rem;
+  font-size: 3vw;
+}
+.container .dhope_Buttons {
+  background: #1d1c1c;
+  border-radius: 0.1em;
+  padding: 1em;
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-columns: 100px;
+  grid-auto-rows: 100px;
+  grid-gap: 1em 0.5em;
+}
+.container .dhope_Buttons a {
+  background: #302e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: ease-in-out 1s;
+}
+.container .dhope_Buttons a button {
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  color: azure;
+  font-size: 1.7vw;
+}
+.container .dhope_Buttons a:hover {
+  background: #3b3a3a;
+}
+
+/* 
+    grading systems 
+*/
+#collect_Data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#collect_Data form {
+  width: 80%;
+}
+#collect_Data form input {
+  text-decoration: none;
+  padding: 0.6em;
+  border: none;
+  border-radius: 0.2em;
+  margin: 0.1em;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 35%;
+  transition: background-color 0.5s ease;
+}
+#collect_Data form #reset_Btn {
+  width: 18%;
+  font-size: 1.5vw;
+  cursor: pointer;
+  background-color: #dae725;
+}
+#collect_Data form #reset_Btn:hover {
+  background-color: #ecf83c;
+}
+#collect_Data form #reset_Btn:active {
+  background-color: #cfdd11;
+}
+#collect_Data form #submit_Btn {
+  width: 18%;
+  font-size: 1.5vw;
+  cursor: pointer;
+  background-color: #2ba8da;
+  color: white;
+}
+#collect_Data form #submit_Btn:hover {
+  background-color: #37bef3;
+}
+#collect_Data form #submit_Btn:active {
+  background-color: #1e7496;
+}
+
+/* 
+    GET CURRENT DATE AND TIME 
+*/
+#date_time {
+  height: 99dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: yellowgreen;
+  border: 0.01em solid yellowgreen;
+  border-radius: 0.5em;
+  transition: all ease-in-out 1s;
+}
+#date_time button {
+  margin-top: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 0.3em;
+  background-color: rgb(4, 158, 73);
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+#date_time button:hover {
+  font-size: 1.7vw;
+  font-weight: bold;
+  padding: 0.4em;
+  background-color: rgb(3, 202, 93);
+}
+#date_time button:active {
+  font-weight: bold;
+  padding: 0.4em;
+  background-color: rgb(0, 117, 53);
+}
+
+/*
+    WEATHER APP
+*/
+.weather_Form {
+  margin: 20px;
+}
+
+.city_Input {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid rgba(0, 0, 0, 0.623);
+  border-radius: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+button[type=submit] {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #1e8df5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: #3396f1;
+}
+button[type=submit]:active {
+  background-color: #0a85f8;
+}
+
+.data_Card {
+  background: linear-gradient(180deg, rgb(87, 157, 238), rgb(204, 149, 47));
+  padding: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+  min-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 25;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 5px 0px;
+}
+
+.city_Display, .temp_Display {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.801);
+  margin-bottom: 25px;
+}
+
+.humidity_Display {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.Desc_Display {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.Weather_Emoji {
+  margin: 0;
+  font-size: 7.5rem;
+}
+
+.error_Display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.685);
+}/*# sourceMappingURL=style.css.map */

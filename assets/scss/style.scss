@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+
+    background: #161515;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    text-align: center;
+    border-radius: 5em;
+
+    #other_Projects_Title {
+        margin-top: 3rem;
+        font-size: 3vw;
+    }
+
+    .dhope_Buttons {
+        background: #1d1c1c;
+        border-radius: 0.1em;
+        padding: 1em;
+
+        // MAKE SURE TO USE 'px' in 'minmax(100px, 1fr)' FOR THE 'auto-fit' TO WORK.
+        display: grid;
+        grid-template-rows: repeat(3, 100px);    // MAKE SURE TO USE 'px' in 'minmax(100px, 1fr)' FOR THE 'auto-fit' TO WORK.
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-columns: 100px;
+        grid-auto-rows: 100px;
+        grid-gap: 1em 0.5em;
+
+        a {
+            background: #302e2e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: ease-in-out 1s;
+
+
+            button {
+                text-decoration: none;
+                border: none;
+                background: transparent;
+                color: azure;
+                font-size: 1.7vw;
+            }
+
+            &:hover {
+                background: #3b3a3a;
+            }
+        }
+    }
+}
+
+@import './grading_Sys';
+@import './dateTime';
+@import './weather';
+

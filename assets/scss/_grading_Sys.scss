@@ -1,0 +1,64 @@
+
+/* 
+    grading systems 
+*/
+#collect_Data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    form {
+        width: 80%;
+
+        input {
+            text-decoration: none;
+            padding: 0.6em;
+            border: none;
+            border-radius: 0.2em;
+            margin: 0.1em;
+            font-size: 1.5vw;
+            text-align: center;
+            width: 35%;
+            transition: background-color 0.5s ease;
+        }
+
+        #reset_Btn {
+            width: 18%;
+            font-size: 1.5vw;
+            cursor: pointer;
+            background-color: #dae725;
+
+            &:hover {
+                background-color: #ecf83c;
+            }
+            &:active {
+                background-color: #cfdd11;
+            }
+        }
+
+        #submit_Btn {
+            width: 18%;
+            font-size: 1.5vw;
+            cursor: pointer;
+            background-color: #2ba8da;
+            color: white;
+        
+            &:hover {
+                background-color: #37bef3;;
+            }
+            &:active {
+                background-color: #1e7496;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
