@@ -80,7 +80,7 @@ const today = `${day}, ${day_Number}th ${month} ${year}`;
 
 // CREATE AND APPEND DATE
 let append_Date = document.createElement("h1");
-append_Date.style.fontSize = "6vw";
+append_Date.style.fontSize = "4vw";
 append_Date.style.color = "white";
 append_Date.textContent = today;
 document.getElementById("date_time").prepend(append_Date);

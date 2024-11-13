@@ -2,6 +2,15 @@
 /*
     WEATHER APP
 */
+
+.container_weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 .weather_Form {
     margin: 20px;
 }
@@ -39,7 +48,7 @@ button[type="submit"]{
     background: linear-gradient(180deg, rgb(87, 157, 238), rgb(204, 149, 47));
     padding: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
-    min-width: 300px;
+    width: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
