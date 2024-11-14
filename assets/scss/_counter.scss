@@ -1,0 +1,44 @@
+
+.counter_Dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100dvh;
+
+    #count_Lable {
+        display: block;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8vw;
+    }
+    
+    
+    #Btn_Container {
+        text-align: center;
+    
+        button {
+            padding: 10px 20px;
+            font-size: 3vw;
+            color: white;
+            background-color: rgb(24, 99, 185);
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        
+            /* this is the time IT TAKES to fade in*/
+            transition: background-color 0.7s;
+        
+            &:hover {
+                background-color: rgb(66, 145, 236);
+            }
+        }
+    }
+    
+}
+
+
+
+
+

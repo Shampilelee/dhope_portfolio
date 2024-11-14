@@ -518,4 +518,85 @@ img.display_Slide {
   to {
     opacity: 1;
   }
+}
+.counter_Dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100dvh;
+}
+.counter_Dev #count_Lable {
+  display: block;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8vw;
+}
+.counter_Dev #Btn_Container {
+  text-align: center;
+}
+.counter_Dev #Btn_Container button {
+  padding: 10px 20px;
+  font-size: 3vw;
+  color: white;
+  background-color: rgb(24, 99, 185);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  /* this is the time IT TAKES to fade in*/
+  transition: background-color 0.7s;
+}
+.counter_Dev #Btn_Container button:hover {
+  background-color: rgb(66, 145, 236);
+}
+
+.roller_Dev {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
+  height: 100dvh;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roller_Dev #container {
+  text-align: center;
+  font-size: 2.7vw;
+  font-weight: bold;
+}
+.roller_Dev #container h1 {
+  color: #318bdf;
+}
+.roller_Dev #container label {
+  font-size: 2vw;
+}
+.roller_Dev #container input {
+  font-size: 2vw;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+.roller_Dev #container button {
+  margin-top: 1em;
+  font-size: 1.5vw;
+  padding: 0.4em 0.7em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(127, 187, 255);
+  border: none;
+  cursor: pointer;
+  /* this is the time IT TAKES to fade in*/
+  transition: background-color 0.7s;
+}
+.roller_Dev #container button:hover {
+  background-color: rgb(66, 145, 236);
+}
+.roller_Dev #container button:active {
+  background-color: rgb(2, 33, 68);
+}
+.roller_Dev #container #dice_Result {
+  margin: 0.25em;
+}
+.roller_Dev #container #dice_Images img {
+  margin: 0.2em;
 }/*# sourceMappingURL=style.css.map */

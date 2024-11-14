@@ -1,0 +1,68 @@
+
+
+.roller_Dev {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    height: 100dvh;
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #container {
+        text-align: center;
+        font-size: 2.7vw;
+        font-weight: bold;
+
+
+        h1 {
+            color: #318bdf;
+        }
+
+        label {
+            font-size: 2vw;
+        }
+
+        input {
+            font-size: 2vw;
+            width: 20%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 1.0em;
+            font-size: 1.5vw;
+            padding: 0.4em 0.7em;
+            border-radius: 0.3em;
+        
+            color: white;
+            background-color: rgb(127, 187, 255);
+            border: none;
+            cursor: pointer;
+        
+            /* this is the time IT TAKES to fade in*/
+            transition: background-color 0.7s;
+        
+            &:hover {
+                background-color: rgb(66, 145, 236);
+            }
+            &:active {
+                background-color: rgb(2, 33, 68);
+            }
+        }
+
+        #dice_Result {
+            margin: 0.25em;
+        }
+        
+        #dice_Images img {
+            //width: 150px;
+            margin: 0.2em;
+        }
+    }
+
+}
+
+
