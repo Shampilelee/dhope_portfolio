@@ -2,7 +2,7 @@
 /* 
     index.html 
 */
-body {
+/* body {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -46,17 +46,16 @@ body {
     &:active {
         background-color: rgb(8, 42, 94);
     }    
-}
+} */
 
 
 
 /* 
     grading systems 
 */
-#collect_Data {
+/* #collect_Data {
     margin-bottom: 20px;
 }
-
 #collect_Data input {
     text-decoration: none;
     padding: 5px;
@@ -68,7 +67,6 @@ body {
     width: 30vw;
     transition: background-color 0.5s ease;
 }
-
 form #reset_Btn {
     width: 15vw;
     font-size: 2vw;
@@ -81,7 +79,6 @@ form #reset_Btn {
         background-color: #cfdd11;
     }
 }
-
 form #submit_Btn {
     width: 15vw;
     font-size: 2vw;
@@ -94,14 +91,14 @@ form #submit_Btn {
     &:active {
         background-color: #1e7496;
     }
-}
+} */
 
 
 
 /*
     calculator.html
 */
-#calculation #display {
+/* #calculation #display {
     width: 30vw;
     font-size: 5vw;
     text-align: right;
@@ -114,13 +111,11 @@ form #submit_Btn {
     background-color: #1a1919;
     color: white;
 }
-
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2px;
 }
-
 #keys button {
     height: 5vw;
     font-size: 2vw;
@@ -135,13 +130,11 @@ form #submit_Btn {
     &:hover {
         background-color: #424242;
     }
-
     &:active {
         background-color: #202020;
     }
 
 }
-
 #keys #equare {
     background-color: #2599e7;
     color: white;
@@ -150,12 +143,10 @@ form #submit_Btn {
     &:hover {
         background-color: #48a6e6;
     }
-
     &:active {
         background-color: #096fb3;
     }
 }
-
 #keys #clear {
     background-color: #e72525;
     color: white;
@@ -164,12 +155,10 @@ form #submit_Btn {
     &:hover {
         background-color: #ff1515;
     }
-
     &:active {
         background-color: #b30000;
     }
 }
-
 #keys .operator {
     background-color: #dae725;
     color: black;
@@ -177,18 +166,17 @@ form #submit_Btn {
     &:hover {
         background-color: #f1ff34;
     }
-
     &:active {
         background-color: #cad80b;
     }
-}
+} */
 
 
 
 /* 
     GET CURRENT DATE AND TIME 
 */ 
-#date_time {
+/* #date_time {
     text-align: center;
     padding: 20px;
     color: yellowgreen;
@@ -220,14 +208,14 @@ form #submit_Btn {
         padding: 10px;
         background-color: rgb(0, 117, 53);
     }
-}
+} */
 
 
 
 /*
     WEATHER APP
 */
-.weather_Form {
+/* .weather_Form {
     margin: 20px;
 }
 
@@ -308,22 +296,20 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.685);
-}
+} */
 
 
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
 
-    /* home page */
+    // home page
     .dhope_Buttons {
         display: flex;
         flex-direction: column;
     }
-    
     #dhope_System_Title {
         font-size: 7vw;
     }
-    
     .dhope_Buttons button {
         width: 45vw;
         height: 17vw;
@@ -332,7 +318,7 @@ p {
 
 
 
-    /* grading system */
+    // grading system 
     #collect_Data input {
         padding: 2px;
         margin: 4px;
@@ -340,12 +326,10 @@ p {
         width: 50vw;
         height: 10vw;
     }
-
     form #reset_Btn {
         width: 23vw;
         font-size: 4vw;
     }
-    
     form #submit_Btn {
         width: 23vw;
         font-size: 4vw;
@@ -353,70 +337,58 @@ p {
 
 
 
-    /* calculator.html */
+    // calculator.html 
     #calculation #display {
         width: 81vw;
         height: 15vw;
         font-size: 10vw;
     }
-
     #keys {
         gap: 2px;
     }
-
     #keys button {
         height: 15vw;
         width: 20vw;
         font-size: 5vw;
     }
-
     #keys #equare {
         width: 41vw;
     }
-
     #keys #clear {
         width: 41vw;
     }
 
 
 
-    /*
-    WEATHER APP
-    */
+    // WEATHER APP
     .container {
         width: 90%;
     }
     .weather_Form {
         margin: 20px;
     }
-
     .city_Input {
         padding: 7px;
         text-align: center;
     }
-
     .data_Card {
         padding: 5px;
         min-width: 100px;
     }
-
     .city_Display, .temp_Display {
         font-size: 2rem;
     }
-
     .humidity_Display {
         margin-bottom: 2vw;
     }
-
     .Desc_Display {
         font-size: 1.2rem;
     }
-
     .error_Display {
         font-size: 0.7rem;
     }
     
-}
+}  */
 
 
 

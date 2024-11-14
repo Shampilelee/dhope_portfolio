@@ -1,0 +1,77 @@
+
+
+
+.rock_Paper_Scissors {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 100dvh;
+
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 4.5vw;
+    }
+    
+    .choices {
+        margin-bottom: 30px;
+    
+        button {
+            font-size: 5vw;
+            border: none;
+            margin: 0 10px;
+            border-radius: 100px;
+            background-color: #2288a7;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+    
+            &:hover {
+                background-color: #38a9cc;
+            }
+        }
+    }
+    
+    #player_Display, #computer_Display {
+        font-size: 4vw;
+    }
+    
+    #result_Display {
+        font-size: 5.5vw;
+        margin: 30px 0;
+    }
+    
+    .score_Display {
+        font-size: 3vw;
+    }
+    
+    .green_Text, #player_Score_Display {
+        color: rgb(9, 167, 9);
+    }
+    
+    .red_Text, #computer_Score_Display {
+        color: rgb(243, 15, 15);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

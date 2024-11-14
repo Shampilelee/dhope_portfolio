@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/scss/style.css">
     <title>CALCULATOR</title>
 </head>
 <body>
     <div class="container">
-        <div id="calculation">
 
-            <input type="text" id="display" value="0" readonly>
+        <div class="cal_dev">
+            <div id="calculation">
 
-            <div id="keys">
-                <button onclick="append_to_Screen(`1`)"> 1 </button>
-                <button onclick="append_to_Screen(`2`)"> 2 </button>
-                <button onclick="append_to_Screen(`3`)"> 3 </button>
-                <button class="operator" onclick="append_to_Screen(`+`)"> + </button>
-
-                <button onclick="append_to_Screen(`4`)"> 4 </button>
-                <button onclick="append_to_Screen(`5`)"> 5 </button>
-                <button onclick="append_to_Screen(`6`)"> 6 </button>
-                <button class="operator" onclick="append_to_Screen(`*`)"> * </button>
-
-                <button onclick="append_to_Screen(`7`)"> 7 </button>
-                <button onclick="append_to_Screen(`8`)"> 8 </button>
-                <button onclick="append_to_Screen(`9`)"> 9 </button>
-                <button class="operator" onclick="append_to_Screen(`/`)"> / </button>
-
-                <button onclick="append_to_Screen(`.`)"> . </button>
-                <button onclick="append_to_Screen(`0`)"> 0 </button>
-                <button onclick="append_to_Screen(`00`)"> 00 </button>
-                <button class="operator" onclick="append_to_Screen(`-`)"> - </button>
-                <button id="clear" class="operator" onclick="clear_Screen()"> C </button>
-                <button id="equare" class="operator" onclick="calculate()"> = </button>
+                <input type="text" id="display" value="0" readonly>
+    
+                <div id="keys">
+                    <button onclick="append_to_Screen(`1`)"> 1 </button>
+                    <button onclick="append_to_Screen(`2`)"> 2 </button>
+                    <button onclick="append_to_Screen(`3`)"> 3 </button>
+                    <button class="operator" onclick="append_to_Screen(`+`)"> + </button>
+    
+                    <button onclick="append_to_Screen(`4`)"> 4 </button>
+                    <button onclick="append_to_Screen(`5`)"> 5 </button>
+                    <button onclick="append_to_Screen(`6`)"> 6 </button>
+                    <button class="operator" onclick="append_to_Screen(`*`)"> * </button>
+    
+                    <button onclick="append_to_Screen(`7`)"> 7 </button>
+                    <button onclick="append_to_Screen(`8`)"> 8 </button>
+                    <button onclick="append_to_Screen(`9`)"> 9 </button>
+                    <button class="operator" onclick="append_to_Screen(`/`)"> / </button>
+    
+                    <button onclick="append_to_Screen(`.`)"> . </button>
+                    <button onclick="append_to_Screen(`0`)"> 0 </button>
+                    <button onclick="append_to_Screen(`00`)"> 00 </button>
+                    <button class="operator" onclick="append_to_Screen(`-`)"> - </button>
+                    <button id="clear" class="operator" onclick="clear_Screen()"> C </button>
+                    <button id="equare" class="operator" onclick="calculate()"> = </button>
+                </div>
+                
             </div>
-            
         </div>
+        
     </div>
 
     <script src="calculate.js"></script>

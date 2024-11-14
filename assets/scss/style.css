@@ -222,4 +222,300 @@ p {
   font-size: 2.5rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.685);
+}
+
+.temp_Convention {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4vw;
+  background-color: aliceblue;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+.temp_Convention h1 {
+  color: #318bdf;
+}
+.temp_Convention form {
+  background-color: #fff;
+  text-align: center;
+  padding: 1.7em;
+  border-radius: 0.2em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.548);
+}
+.temp_Convention form #textBox {
+  width: 70%;
+  text-align: center;
+  font-size: 2em;
+  border: 5px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.temp_Convention form label {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.temp_Convention form button {
+  margin-top: 1.7em;
+  font-size: 1.7vw;
+  padding: 0.3em 0.5em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: rgb(127, 187, 255);
+  border: none;
+  cursor: pointer;
+  /* this is the time IT TAKES to fade in*/
+  transition: background-color 0.7s;
+}
+.temp_Convention form button:hover {
+  background-color: rgb(66, 145, 236);
+}
+.temp_Convention form button:active {
+  background-color: rgb(2, 33, 68);
+}
+.temp_Convention form #result {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+/*
+    calculator.html
+*/
+.cal_dev {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculation {
+  background: #335063;
+  padding: 1em;
+  width: 40%;
+}
+
+#display {
+  width: 100%;
+  font-size: 5vw;
+  text-align: right;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1919;
+  color: white;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2em;
+}
+#keys button {
+  height: 5vw;
+  font-size: 2vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  background-color: #2c2b2b;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+#keys button:hover {
+  background-color: #424242;
+}
+#keys button:active {
+  background-color: #202020;
+}
+#keys #equare {
+  background-color: #2599e7;
+  color: white;
+  grid-column: span 2;
+}
+#keys #equare:hover {
+  background-color: #48a6e6;
+}
+#keys #equare:active {
+  background-color: #096fb3;
+}
+#keys #clear {
+  background-color: #e72525;
+  color: white;
+  grid-column: span 2;
+}
+#keys #clear:hover {
+  background-color: #ff1515;
+}
+#keys #clear:active {
+  background-color: #b30000;
+}
+#keys .operator {
+  background-color: #dae725;
+  color: black;
+}
+#keys .operator:hover {
+  background-color: #f1ff34;
+}
+#keys .operator:active {
+  background-color: #cad80b;
+}
+
+.box {
+  background-color: #333232;
+  color: aquamarine;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 6vw;
+}
+.box #pwd_Btn {
+  font-size: 2vw;
+  background-color: #141313;
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+  padding: 0.4em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.container_Roll_Num {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 6vw;
+  text-align: center;
+}
+.container_Roll_Num #myLabel {
+  font-size: 7vw;
+  font-weight: bolder;
+  margin: 0;
+  color: white;
+}
+.container_Roll_Num #myButton {
+  font-size: 5vw;
+  padding: 0.01em 1em;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(51, 116, 190);
+  border: none;
+  cursor: pointer;
+  /* this is the time IT TAKES to fade in*/
+  transition: background-color 0.7s;
+}
+.container_Roll_Num #myButton:hover {
+  background-color: rgb(14, 71, 136);
+}
+.container_Roll_Num #myButton:active {
+  background-color: rgb(2, 33, 68);
+}
+
+.rock_Paper_Scissors {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 100dvh;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rock_Paper_Scissors h1 {
+  font-size: 4.5vw;
+}
+.rock_Paper_Scissors .choices {
+  margin-bottom: 30px;
+}
+.rock_Paper_Scissors .choices button {
+  font-size: 5vw;
+  border: none;
+  margin: 0 10px;
+  border-radius: 100px;
+  background-color: #2288a7;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.rock_Paper_Scissors .choices button:hover {
+  background-color: #38a9cc;
+}
+.rock_Paper_Scissors #player_Display, .rock_Paper_Scissors #computer_Display {
+  font-size: 4vw;
+}
+.rock_Paper_Scissors #result_Display {
+  font-size: 5.5vw;
+  margin: 30px 0;
+}
+.rock_Paper_Scissors .score_Display {
+  font-size: 3vw;
+}
+.rock_Paper_Scissors .green_Text, .rock_Paper_Scissors #player_Score_Display {
+  color: rgb(9, 167, 9);
+}
+.rock_Paper_Scissors .red_Text, .rock_Paper_Scissors #computer_Score_Display {
+  color: rgb(243, 15, 15);
+}
+
+.img_Slider {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 100dvh;
+  display: flex;
+}
+
+.slider {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider img {
+  width: 100%;
+  display: none;
+}
+
+/* KEEP IT CLOSE LIKE THIS: (img.display_Slide) FOR IT TO WORK */
+img.display_Slide {
+  display: block;
+  animation-name: fade_In;
+  animation-duration: 0.7s;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.7vw;
+  padding: 1em 1.5em;
+  background-color: rgba(0, 0, 0, 0.548);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* FADE-IN ANINATION */
+@keyframes fade_In {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */

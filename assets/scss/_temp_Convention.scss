@@ -1,0 +1,71 @@
+
+
+.temp_Convention {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4vw;
+    background-color: aliceblue;
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100dvh;
+
+
+    h1 {
+        color: #318bdf;
+    }
+
+    form {
+        background-color: #fff;
+        text-align: center;
+        padding: 1.7em;
+        border-radius: 0.2em;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.548);
+    
+        #textBox{
+            width: 70%;
+            text-align: center;
+            font-size: 2em;
+            border: 5px solid rgba(0, 0, 0, 0.267);
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        label {
+            font-size: 1.2vw;
+            font-weight: bold;
+        }
+        
+        button {
+            margin-top: 1.7em;
+            font-size: 1.7vw;
+            padding: 0.3em 0.5em;
+            border-radius: 0.3em;
+        
+            color: white;
+            background-color: rgb(127, 187, 255);
+            border: none;
+            cursor: pointer;
+        
+            /* this is the time IT TAKES to fade in*/
+            transition: background-color 0.7s;
+        
+            &:hover {
+                background-color: rgb(66, 145, 236);
+            }
+            &:active {
+                background-color: rgb(2, 33, 68);
+            }
+        }
+        
+        #result {
+            font-size: 2vw;
+            font-weight: bold;
+        }
+    }
+    
+}
+
+
