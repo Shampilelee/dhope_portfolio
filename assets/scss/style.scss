@@ -2,7 +2,8 @@
 body {
     margin: 0;
 
-    background: #161515;
+    // background: #161515;
+    background: linear-gradient(to right, #436553, #A0B4A9);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,7 +18,7 @@ body {
     }
 
     .dhope_Buttons {
-        background: #1d1c1c;
+        background: #1d1c1c38;
         border-radius: 0.1em;
         padding: 1em;
 
@@ -30,7 +31,7 @@ body {
         grid-gap: 1em 0.5em;
 
         a {
-            background: #302e2e;
+            background: #302e2e5d;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -47,7 +48,7 @@ body {
             }
 
             &:hover {
-                background: #3b3a3a;
+                background: #3b3a3a9c;
             }
         }
     }

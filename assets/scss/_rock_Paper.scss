@@ -2,7 +2,8 @@
 
 
 .rock_Paper_Scissors {
-    background-color: rgb(37, 37, 37);
+    //background-color: rgb(37, 37, 37);
+    background: linear-gradient(to bottom, #40BFA8, #FEECAD);
     color: white;
     height: 100dvh;
 
@@ -47,6 +48,7 @@
     
     .score_Display {
         font-size: 3vw;
+        color: #00000098;
     }
     
     .green_Text, #player_Score_Display {

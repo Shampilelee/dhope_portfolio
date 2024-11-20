@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #161515;
+  background: linear-gradient(to right, #436553, #A0B4A9);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -14,7 +14,7 @@ body {
   font-size: 3vw;
 }
 .container .dhope_Buttons {
-  background: #1d1c1c;
+  background: rgba(29, 28, 28, 0.2196078431);
   border-radius: 0.1em;
   padding: 1em;
   display: grid;
@@ -25,7 +25,7 @@ body {
   grid-gap: 1em 0.5em;
 }
 .container .dhope_Buttons a {
-  background: #302e2e;
+  background: rgba(48, 46, 46, 0.3647058824);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@ body {
   font-size: 1.7vw;
 }
 .container .dhope_Buttons a:hover {
-  background: #3b3a3a;
+  background: rgba(59, 58, 58, 0.6117647059);
 }
 
 /* 
@@ -283,6 +283,7 @@ p {
     calculator.html
 */
 .cal_dev {
+  background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   height: 100dvh;
   display: flex;
   justify-content: center;
@@ -420,7 +421,7 @@ p {
 }
 
 .rock_Paper_Scissors {
-  background-color: rgb(37, 37, 37);
+  background: linear-gradient(to bottom, #40BFA8, #FEECAD);
   color: white;
   height: 100dvh;
   font-family: sans-serif, Arial, Helvetica;
@@ -457,6 +458,7 @@ p {
 }
 .rock_Paper_Scissors .score_Display {
   font-size: 3vw;
+  color: rgba(0, 0, 0, 0.5960784314);
 }
 .rock_Paper_Scissors .green_Text, .rock_Paper_Scissors #player_Score_Display {
   color: rgb(9, 167, 9);
@@ -466,7 +468,7 @@ p {
 }
 
 .img_Slider {
-  background-color: rgb(37, 37, 37);
+  background: linear-gradient(to right, #436553, #A0B4A9);
   color: white;
   height: 100dvh;
   display: flex;
